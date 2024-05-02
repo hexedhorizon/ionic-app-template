@@ -19,6 +19,10 @@ const Page1: React.FC = () => {
             <IonTitle size="large">Home</IonTitle>
           </IonToolbar>
         </IonHeader>
+
+        <IonButton routerLink="/app/page1/details" expand="full">
+          Details
+        </IonButton>
     
     
       </IonContent>
