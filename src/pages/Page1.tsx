@@ -22,6 +22,9 @@ const Page1: React.FC = () => {
         <IonButton routerLink="/app/page1/details" expand="full">
           Details
         </IonButton>
+        <IonButton routerLink="/detailsoutside" expand="full">
+          Details Outside
+        </IonButton>
        
       </IonContent>
     </IonPage>
